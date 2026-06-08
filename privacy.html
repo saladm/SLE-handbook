@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SLE 手账 · 隐私政策</title>
+<style>
+  :root {
+    --ink: #22312B;
+    --ink-soft: #5A6964;
+    --ink-mute: #9AA8A2;
+    --sage: #3E8C70;
+    --coral: #E69076;
+    --cream: #FBF8F2;
+    --paper: #FFFFFF;
+    --line: #E8EAE4;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    -webkit-text-size-adjust: 100%;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    margin: 0 0 8px;
+  }
+  .meta {
+    color: var(--ink-mute);
+    font-size: 13px;
+    margin-bottom: 28px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--sage);
+    margin: 36px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 20px 0 8px;
+  }
+  p { margin: 8px 0 14px; }
+  ul { margin: 8px 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--ink); font-weight: 600; }
+  .notice {
+    background: #FFF5EE;
+    border-left: 3px solid var(--coral);
+    padding: 14px 16px;
+    border-radius: 8px;
+    margin: 18px 0;
+    font-size: 14px;
+  }
+  .table {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 14px 0;
+    background: var(--paper);
+  }
+  .row {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .row:last-child { border-bottom: 0; }
+  .row .label {
+    font-size: 12px;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+  .row .value {
+    font-size: 14px;
+    color: var(--ink);
+  }
+  a { color: var(--sage); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code {
+    background: #F2EFE8;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: "DM Mono", ui-monospace, monospace;
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    color: var(--ink-mute);
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>隐私政策</h1>
+<div class="meta">SLE 手账 · v1.0 · 生效日期 2026-05-27</div>
+
+<h2>1. 关于我们</h2>
+<p>SLE 手账 App（以下简称"本 App"）由 Craft with love 二人团队开发与运营，旨在帮助系统性红斑狼疮（SLE）患者整理检验报告、跟踪长期指标趋势。本 App <strong>不是医疗器械，不提供诊断、不预测病情、不推荐用药、不替代医生判断</strong>，仅作为患者自我记录与就诊准备的辅助工具。</p>
+<p>本隐私政策说明本 App 如何收集、使用、存储与共享你的个人信息。请在使用本 App 前仔细阅读。</p>
+
+<h2>2. 我们收集什么数据，以及为什么</h2>
+
+<h3>2.1 你主动提供的</h3>
+
+<div class="table">
+  <div class="row">
+    <div class="label">检验单照片 / 门诊病历照片</div>
+    <div class="value">
+      <strong>用途：</strong>识别检验项目、数值、参考区间、医院名、就诊日期。<br>
+      <strong>处理流程：</strong>照片上传至本 App 服务器 → 转发至 OCR 服务商进行图像识别 → 识别结果写入你的账号记录。<br>
+      <strong>存储期限：</strong>图片会保存在我们的服务器，用于你之后查看原始报告、核对识别结果和删除记录。你删除单份报告或删除账号后，服务器会删除对应图片和相关记录。<br>
+      <strong>替代选择：</strong>你可以选择不上传，手动输入数值。
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">每日打卡数据（症状、用药记录）</div>
+    <div class="value">
+      <strong>用途：</strong>本地长期追踪你的病情记录。<br>
+      <strong>处理流程：</strong>保存在你的账号记录中，用于跨页面展示、导出和未来数据恢复。<br>
+      <strong>存储期限：</strong>直到你在 App 内手动删除或删除账号。
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">检验数值与观察记录（observations）</div>
+    <div class="value">
+      <strong>用途：</strong>本地展示趋势图、指标卡片。<br>
+      <strong>处理流程：</strong>OCR 识别完成后，结构化检验项和你确认保存的 observation 会写入服务器数据库，并在 App 中用于展示趋势图、指标卡片和就诊记录。<br>
+      <strong>存储期限：</strong>直到你删除对应报告、删除单条 observation 或删除账号。
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">去标识化识别改进候选</div>
+    <div class="value">
+      <strong>用途：</strong>用于人工审核检验项别名库，改进 OCR 后的指标匹配准确率。<br>
+      <strong>包含：</strong>检验项目名、单位、标本提示、清洗后的医院名、报告类型、用户手动确认的标准指标、出现次数。<br>
+      <strong>不包含：</strong>原图、患者姓名、医生姓名、图片路径、检验数值、参考范围全文。<br>
+      <strong>内测规则：</strong>TestFlight 内测用户参与测试即表示同意上述去标识化候选用于人工审核；我们会在内测说明中明确告知。<br>
+      <strong>正式版规则：</strong>正式用户可在 App 内开启或关闭“帮助改进识别准确率”，关闭后后续数据不再进入候选导出。
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">用药清单</div>
+    <div class="value">
+      <strong>用途：</strong>提醒服药、记录剂量。<br>
+      <strong>处理流程：</strong>保存在你的账号记录中，用于 App 内展示和导出。<br>
+      <strong>存储期限：</strong>直到你手动删除或删除账号。
+    </div>
+  </div>
+</div>
+
+<h3>2.2 账号相关数据</h3>
+
+<div class="table">
+  <div class="row">
+    <div class="label">邮箱地址（来自 Apple Sign In）</div>
+    <div class="value">
+      <strong>用途：</strong>账号识别、跨设备登录。<br>
+      <strong>来源：</strong>你授权 Apple Sign In 时，Apple 提供给我们的邮箱（可能是你的真实邮箱，也可能是 Apple 生成的私密转发邮箱）。<br>
+      <strong>处理流程：</strong>仅存储在我们的服务器数据库，<strong>不分享给任何第三方</strong>。<br>
+      <strong>存储期限：</strong>账号存续期间。你可以随时在「我的 → 删除账号」彻底删除。
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">配额计数（OCR 使用次数、PDF 导出次数）</div>
+    <div class="value">
+      <strong>用途：</strong>免费版用户每月使用次数限制；订阅用户的订阅有效期。<br>
+      <strong>存储位置：</strong>仅存储在我们的服务器。<br>
+      <strong>存储期限：</strong>账号存续期间；删除账号后，仅保留不可逆哈希标识与必要交易审计记录，用于防止重复领取免费额度、处理订阅恢复、退款争议和合规审计。
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">反滥用与支付审计标识</div>
+    <div class="value">
+      <strong>用途：</strong>防止删除账号后重复领取新用户赠送额度，避免同一 Apple 订阅被反复重绑以重置当期使用次数，并处理退款 / 订阅争议。<br>
+      <strong>处理流程：</strong>我们不会保留原始 Apple 用户标识或原始交易号；服务器只保存经 HMAC-SHA256 处理后的不可逆哈希标识。<br>
+      <strong>存储期限：</strong>删除账号后仍会保留一段必要时间，仅用于上述反滥用、支付审计和合规目的，不用于广告、画像或第三方追踪。
+    </div>
+  </div>
+</div>
+
+<h3>2.3 自动收集的数据</h3>
+<p>本 App <strong>不收集</strong>下列数据：</p>
+<ul>
+  <li>不收集设备位置（GPS、IP 定位）</li>
+  <li>不收集通讯录、相册以外的相册</li>
+  <li>不进行跨 App 追踪（No App Tracking Transparency 提示）</li>
+  <li>不嵌入第三方广告 SDK</li>
+  <li>不收集任何用于行为画像或广告投放的数据</li>
+</ul>
+<p>本 App <strong>会</strong>收集下列最小化的技术数据：</p>
+<ul>
+  <li><strong>IP 地址</strong>（仅用于 API 请求路由与限流防滥用，不与用户身份长期关联）</li>
+  <li><strong>设备型号、操作系统版本</strong>（用于故障排查，与请求一同短暂出现在服务器日志中，日志保留期 7 天）</li>
+</ul>
+
+<h2>3. 我们与谁共享数据</h2>
+
+<p>我们<strong>只在以下严格限定的场景</strong>与第三方共享数据：</p>
+
+<div class="table">
+  <div class="row">
+    <div class="label">豆包大模型（字节跳动 / 火山引擎）</div>
+    <div class="value">
+      <strong>服务方：</strong>北京火山引擎科技有限公司（字节跳动旗下）<br>
+      <strong>共享内容：</strong>你上传的检验单/病历图片（不含我们额外附加的任何个人信息）<br>
+      <strong>用途：</strong>仅用于 OCR 图像识别，将图片中的检验数据转为结构化文本<br>
+      <strong>服务器位置：</strong>中国境内<br>
+      <strong>豆包隐私政策：</strong><a href="https://www.volcengine.com/docs/82379/1099475" target="_blank">https://www.volcengine.com/docs/82379/1099475</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">Apple Sign In（Apple Inc.）</div>
+    <div class="value">
+      <strong>服务方：</strong>Apple Inc.（美国）<br>
+      <strong>共享方向：</strong>由 Apple 提供你的邮箱给我们；我们不向 Apple 提供任何用户数据<br>
+      <strong>用途：</strong>账号登录与识别<br>
+      <strong>Apple 隐私政策：</strong><a href="https://www.apple.com/legal/privacy/" target="_blank">https://www.apple.com/legal/privacy/</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">App Store / Apple StoreKit（订阅支付）</div>
+    <div class="value">
+      <strong>服务方：</strong>Apple Inc.<br>
+      <strong>共享内容：</strong>订阅状态收据（receipt），用于服务端校验你的订阅有效期<br>
+      <strong>我们不接触：</strong>你的银行卡号、支付凭证、消费金额等支付信息，全部由 Apple 处理
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">阿里云（基础设施）</div>
+    <div class="value">
+      <strong>服务方：</strong>阿里云计算有限公司<br>
+      <strong>共享内容：</strong>本 App 后端服务器与数据库托管在阿里云北京区<br>
+      <strong>说明：</strong>阿里云作为基础设施提供方，不会读取或处理我们存储的用户数据
+    </div>
+  </div>
+</div>
+
+<p><strong>我们不会：</strong></p>
+<ul>
+  <li>把你的健康数据卖给任何第三方</li>
+  <li>把你的健康数据用于广告投放或行为画像</li>
+  <li>把你的健康数据用于训练任何机器学习模型（包括我们自己的）</li>
+  <li>在未经你明确同意的情况下，与上述第三方以外的任何机构共享你的数据</li>
+</ul>
+
+<h2>4. 数据存储与安全</h2>
+
+<h3>4.1 存储位置</h3>
+<ul>
+  <li><strong>账号健康记录</strong>（检验数值、症状、用药、观察记录）：存储在服务器数据库，用于 App 内展示、导出和账号数据恢复</li>
+  <li><strong>服务器数据</strong>（账号信息、配额）：阿里云北京区 PostgreSQL 数据库</li>
+  <li><strong>OCR 图片</strong>：阿里云北京区文件存储，保留至你删除对应报告或删除账号</li>
+</ul>
+
+<h3>4.2 安全措施</h3>
+<ul>
+  <li>所有 App 与服务器的通信使用 HTTPS（TLS 1.2+）加密</li>
+  <li>账号认证使用 JWT，密钥定期轮换</li>
+  <li>原始图片仅在服务器存放期间，不会通过 API 暴露给客户端</li>
+  <li>OCR 服务调用在服务器侧完成，API Key 不会出现在 App 中</li>
+  <li>日志不记录检验单原始内容、患者姓名、检验数值等敏感信息</li>
+  <li>用于识别准确率改进的数据仅限去标识化候选；内测用户默认参与，正式用户可在 App 内自行开启或关闭</li>
+</ul>
+
+<h3>4.3 数据泄露</h3>
+<p>若发生可能影响你权益的数据安全事件，我们将在 <strong>72 小时内</strong>通过 App 内通知或邮件告知受影响的用户，并向监管机构报告。</p>
+
+<h2>5. 你的权利</h2>
+
+<p>根据《中华人民共和国个人信息保护法》（PIPL）以及适用法律，你享有以下权利：</p>
+
+<ul>
+  <li><strong>查阅与导出：</strong>所有本地数据可通过 App 内「导出」功能生成 PDF 或本地 JSON 文件</li>
+  <li><strong>更正：</strong>App 内所有数据均可直接编辑或重新录入</li>
+  <li><strong>删除：</strong>
+    <ul>
+      <li>单条数据：App 内直接删除</li>
+      <li>所有本地数据：卸载 App 即彻底删除</li>
+      <li>服务器账号 + 配额：「我的 → 删除账号」，立即生效，不可恢复</li>
+    </ul>
+  </li>
+  <li><strong>撤回授权：</strong>可在 iOS「设置 → Apple ID → 密码与安全性 → 使用您 Apple ID 的 App」中撤回 Apple Sign In 授权</li>
+  <li><strong>撤回质量改进同意：</strong>正式用户可在 App 内关闭“帮助改进识别准确率”，关闭后后续数据不再进入别名候选导出；内测用户可停止参与内测或联系邮箱要求停止后续候选导出</li>
+  <li><strong>限制处理：</strong>不使用 OCR 功能，则我们的服务器从不接收你的检验单图片</li>
+  <li><strong>投诉：</strong>如对本 App 数据处理有疑问，可通过下方邮箱联系我们；亦可向所在地网信办投诉</li>
+</ul>
+
+<h2>6. 未成年人</h2>
+<p>本 App 主要面向成年 SLE 患者使用。如未成年人（不满 18 周岁）需使用本 App，应在监护人指导下使用，且监护人同意本隐私政策。我们不会主动收集与未成年人身份相关的特定数据。</p>
+
+<h2>7. 隐私政策的更新</h2>
+<p>我们可能根据法律法规、产品功能变化而更新本政策。更新后的政策将通过下列方式告知你：</p>
+<ul>
+  <li>本页顶部"生效日期"会更新</li>
+  <li>重大变更将在 App 内以弹窗形式提示，并需要你重新阅读</li>
+</ul>
+<p>请定期查阅本政策。如不同意更新内容，你可以选择停止使用本 App 并删除账号。</p>
+
+<h2>8. 联系我们</h2>
+<p>如对本政策有任何疑问、投诉或需要行使个人信息权利，请联系：</p>
+<ul>
+  <li>邮箱：<a href="mailto:yubiology@gmail.com">yubiology@gmail.com</a></li>
+  <li>开发团队：Craft with love 二人团队</li>
+</ul>
+<p>我们将在收到请求后 <strong>15 个工作日内</strong>回复。</p>
+
+<footer>
+  SLE 手账 App · 由 Craft with love 二人团队维护 · 非诊断、非医疗器械<br>
+  本文档最新版本可在 App 内「我的 → 隐私政策」或服务器 /legal/privacy.html 查阅。
+</footer>
+
+</div>
+</body>
+</html>
