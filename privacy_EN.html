@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SLE Handbook · Privacy Policy</title>
+<style>
+  :root {
+    --ink: #22312B;
+    --ink-soft: #5A6964;
+    --ink-mute: #9AA8A2;
+    --sage: #3E8C70;
+    --coral: #E69076;
+    --cream: #FBF8F2;
+    --paper: #FFFFFF;
+    --line: #E8EAE4;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    -webkit-text-size-adjust: 100%;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    margin: 0 0 8px;
+  }
+  .meta {
+    color: var(--ink-mute);
+    font-size: 13px;
+    margin-bottom: 28px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--sage);
+    margin: 36px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 20px 0 8px;
+  }
+  p { margin: 8px 0 14px; }
+  ul { margin: 8px 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--ink); font-weight: 600; }
+  .notice {
+    background: #FFF5EE;
+    border-left: 3px solid var(--coral);
+    padding: 14px 16px;
+    border-radius: 8px;
+    margin: 18px 0;
+    font-size: 14px;
+  }
+  .table {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 14px 0;
+    background: var(--paper);
+  }
+  .row {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .row:last-child { border-bottom: 0; }
+  .row .label {
+    font-size: 12px;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+  .row .value {
+    font-size: 14px;
+    color: var(--ink);
+  }
+  a { color: var(--sage); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code {
+    background: #F2EFE8;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: "DM Mono", ui-monospace, monospace;
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    color: var(--ink-mute);
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Privacy Policy</h1>
+<div class="meta">SLE Handbook · v1.0 · Effective Date: June 8, 2026</div>
+
+<div class="notice">
+  SLE Handbook is a personal health record and preparation tool. It is not a medical device. It does not provide diagnosis, disease prediction, medication advice, or treatment recommendations.
+</div>
+
+<h2>1. About Us</h2>
+<p>SLE Handbook (the "App") is developed and operated by the Craft with love two-person team. The App is designed to help people with systemic lupus erythematosus (SLE) organize laboratory reports, clinic notes, medication records, symptom notes, and long-term lab trends.</p>
+<p>This Privacy Policy explains what personal information we collect, why we collect it, how we process it, where it is stored, when it is shared, and how you can exercise your privacy rights.</p>
+
+<h2>2. What Data We Collect and Why</h2>
+
+<h3>2.1 Data You Provide</h3>
+
+<div class="table">
+  <div class="row">
+    <div class="label">Lab report photos and clinic note photos</div>
+    <div class="value">
+      <strong>Purpose:</strong> To extract lab item names, values, units, reference ranges, hospital names, and visit dates.<br>
+      <strong>Processing:</strong> The photo is uploaded to our server, sent to an OCR provider for image recognition, and the structured extraction result is saved to your account records.<br>
+      <strong>Retention:</strong> Photos are kept on our server so you can review the original report and verify extraction results. When you delete a report or delete your account, the related images and records are deleted from our server.<br>
+      <strong>Alternative:</strong> You may choose not to upload photos and manually enter lab values instead.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">Daily check-ins, symptoms, and medication records</div>
+    <div class="value">
+      <strong>Purpose:</strong> To help you keep longitudinal personal health notes.<br>
+      <strong>Processing:</strong> These records are saved to your account and used for in-app display, export, and future data recovery.<br>
+      <strong>Retention:</strong> Until you delete the records in the App or delete your account.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">Lab values and observations</div>
+    <div class="value">
+      <strong>Purpose:</strong> To show lab trend charts, metric cards, and visit records inside the App.<br>
+      <strong>Processing:</strong> After OCR extraction, structured lab items and observations confirmed by you are stored in our server database.<br>
+      <strong>Retention:</strong> Until you delete the related report, delete a specific observation, or delete your account.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">De-identified OCR matching improvement candidates</div>
+    <div class="value">
+      <strong>Purpose:</strong> To support manual review of lab item aliases and improve OCR-to-indicator matching accuracy.<br>
+      <strong>Included:</strong> Lab item names, units, specimen hints, cleaned hospital names, report types, user-confirmed standard indicators, and occurrence counts.<br>
+      <strong>Not included:</strong> Original images, patient names, doctor names, image paths, lab values, or full reference ranges.<br>
+      <strong>Beta rule:</strong> TestFlight beta users are informed that participation in the beta includes use of the de-identified candidates described above for manual review.<br>
+      <strong>Production rule:</strong> Production users may turn "Help improve recognition accuracy" on or off in the App. After it is turned off, future data is no longer exported as alias-review candidates.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">Medication list</div>
+    <div class="value">
+      <strong>Purpose:</strong> To support medication reminders and dosage records.<br>
+      <strong>Processing:</strong> Medication records are saved to your account and used for in-app display and export.<br>
+      <strong>Retention:</strong> Until you delete them manually or delete your account.
+    </div>
+  </div>
+</div>
+
+<h3>2.2 Account Data</h3>
+
+<div class="table">
+  <div class="row">
+    <div class="label">Email address from Sign in with Apple</div>
+    <div class="value">
+      <strong>Purpose:</strong> Account identification and login across devices.<br>
+      <strong>Source:</strong> When you authorize Sign in with Apple, Apple provides an email address to us. This may be your real email address or an Apple private relay address.<br>
+      <strong>Processing:</strong> Stored only in our server database. <strong>We do not share your email address with third parties.</strong><br>
+      <strong>Retention:</strong> While your account exists. You may delete your account at any time in "Me - Delete Account".
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">Quota counts and subscription state</div>
+    <div class="value">
+      <strong>Purpose:</strong> To enforce monthly usage limits for free users and subscription entitlements for subscribers.<br>
+      <strong>Storage:</strong> Stored only on our server.<br>
+      <strong>Retention:</strong> While your account exists. After account deletion, we retain only irreversible hash identifiers and necessary transaction audit records for abuse prevention, subscription restore, refund disputes, and compliance purposes.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">Abuse prevention and payment audit identifiers</div>
+    <div class="value">
+      <strong>Purpose:</strong> To prevent repeated free-credit claims after account deletion, prevent repeated rebinding of the same Apple subscription to reset usage limits, and handle refund or subscription disputes.<br>
+      <strong>Processing:</strong> We do not retain raw Apple user identifiers or raw transaction IDs for these anti-abuse records. The server stores irreversible HMAC-SHA256 hash identifiers.<br>
+      <strong>Retention:</strong> These records may be retained after account deletion for the limited purposes described above. They are not used for advertising, profiling, or third-party tracking.
+    </div>
+  </div>
+</div>
+
+<h3>2.3 Automatically Collected Data</h3>
+<p>The App <strong>does not collect</strong> the following data:</p>
+<ul>
+  <li>Precise location data, GPS data, or IP-based location profiling</li>
+  <li>Contacts</li>
+  <li>Photo library content other than the photo you choose to upload</li>
+  <li>Data for cross-app tracking</li>
+  <li>Data for behavioral advertising or user profiling</li>
+  <li>Data through third-party advertising SDKs</li>
+</ul>
+<p>The App <strong>does collect</strong> the following minimal technical data:</p>
+<ul>
+  <li><strong>IP address:</strong> used only for API routing and rate-limiting abuse prevention. It is not long-term associated with your identity.</li>
+  <li><strong>Device model and operating system version:</strong> used for troubleshooting. These may briefly appear in server logs, which are retained for 7 days.</li>
+</ul>
+
+<h2>3. Data Sharing</h2>
+
+<p>We share data with third parties only in the limited situations described below.</p>
+
+<div class="table">
+  <div class="row">
+    <div class="label">Doubao large language model / Volcengine</div>
+    <div class="value">
+      <strong>Provider:</strong> Beijing Volcengine Technology Co., Ltd., a ByteDance affiliate.<br>
+      <strong>Shared data:</strong> The lab report or clinic note image you upload. We do not add extra personal information to the OCR request.<br>
+      <strong>Purpose:</strong> OCR image recognition, converting lab report images into structured text.<br>
+      <strong>Server location:</strong> Mainland China.<br>
+      <strong>Provider privacy policy:</strong> <a href="https://www.volcengine.com/docs/82379/1099475" target="_blank">https://www.volcengine.com/docs/82379/1099475</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">Sign in with Apple</div>
+    <div class="value">
+      <strong>Provider:</strong> Apple Inc.<br>
+      <strong>Data flow:</strong> Apple provides your authorized email address to us. We do not provide health records or lab data to Apple for Sign in with Apple.<br>
+      <strong>Purpose:</strong> Account login and identification.<br>
+      <strong>Apple Privacy Policy:</strong> <a href="https://www.apple.com/legal/privacy/" target="_blank">https://www.apple.com/legal/privacy/</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">App Store / Apple StoreKit</div>
+    <div class="value">
+      <strong>Provider:</strong> Apple Inc.<br>
+      <strong>Shared data:</strong> Subscription receipt and transaction status needed to verify subscription entitlement on our server.<br>
+      <strong>We do not receive:</strong> Your card number, payment credentials, or detailed payment information. Payments are processed by Apple.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="label">Alibaba Cloud infrastructure</div>
+    <div class="value">
+      <strong>Provider:</strong> Alibaba Cloud Computing Co., Ltd.<br>
+      <strong>Shared data:</strong> Our backend server, database, and file storage are hosted in Alibaba Cloud's Beijing region.<br>
+      <strong>Role:</strong> Alibaba Cloud provides infrastructure hosting and does not independently read or process your health records for its own purposes.
+    </div>
+  </div>
+</div>
+
+<p><strong>We do not:</strong></p>
+<ul>
+  <li>Sell your health data to any third party</li>
+  <li>Use your health data for advertising or behavioral profiling</li>
+  <li>Use your health data to train any machine learning model, including our own models</li>
+  <li>Share your data with organizations other than the providers listed above unless you explicitly consent or applicable law requires it</li>
+</ul>
+
+<h2>4. Storage and Security</h2>
+
+<h3>4.1 Storage Location</h3>
+<ul>
+  <li><strong>Account health records:</strong> lab values, symptoms, medication records, and observations are stored in our server database for in-app display, export, and account data recovery.</li>
+  <li><strong>Server data:</strong> account information and quota records are stored in a PostgreSQL database hosted in Alibaba Cloud's Beijing region.</li>
+  <li><strong>OCR images:</strong> uploaded images are stored in Alibaba Cloud's Beijing region until you delete the related report or delete your account.</li>
+</ul>
+
+<h3>4.2 Security Measures</h3>
+<ul>
+  <li>Account authentication uses JWT and refresh-token rotation.</li>
+  <li>Original images are stored server-side and are not publicly exposed through the mobile app API.</li>
+  <li>OCR provider calls are made only from our server. OCR API keys are never included in the mobile app.</li>
+  <li>Server logs do not record raw lab report contents, patient names, lab values, or other sensitive medical content.</li>
+  <li>Data used for recognition-accuracy improvement is limited to de-identified alias-review candidates. Beta users are informed in the beta test information; production users may opt in or opt out in the App.</li>
+  <li>The current TestFlight beta may connect to a dedicated test server IP using a restricted App Transport Security exception. The production release is planned to migrate to a custom HTTPS domain after domain filing and certificate setup are complete.</li>
+</ul>
+
+<h3>4.3 Data Breach Notification</h3>
+<p>If a data security incident may affect your rights or interests, we will notify affected users within <strong>72 hours</strong> by in-app notice or email and report to the relevant regulator where required by law.</p>
+
+<h2>5. Your Rights</h2>
+
+<p>Subject to the Personal Information Protection Law of the People's Republic of China (PIPL) and other applicable laws, you may have the following rights:</p>
+
+<ul>
+  <li><strong>Access and export:</strong> App data can be exported through the in-app export feature as a PDF or local JSON file.</li>
+  <li><strong>Correction:</strong> Data in the App can be edited or re-entered by you.</li>
+  <li><strong>Deletion:</strong> You can delete individual records in the App. You can delete your server account and server-side records through "Me - Delete Account". Account deletion takes effect immediately and cannot be restored.</li>
+  <li><strong>Withdraw Sign in with Apple authorization:</strong> You can revoke authorization in iOS Settings under Apple ID - Sign-In & Security - Sign in with Apple.</li>
+  <li><strong>Withdraw quality-improvement consent:</strong> Production users can turn off "Help improve recognition accuracy" in the App. Beta users can stop participating in the beta or contact us to request that future candidate exports stop.</li>
+  <li><strong>Restrict processing:</strong> If you do not use OCR uploads, our server will not receive your lab report photos.</li>
+  <li><strong>Complaint:</strong> If you have concerns about our data processing, you may contact us using the email below. You may also file a complaint with the competent regulator in your jurisdiction.</li>
+</ul>
+
+<h2>6. Children and Minors</h2>
+<p>The App is primarily intended for adult SLE patients. If a minor under 18 uses the App, the minor should do so under the guidance and consent of a parent or legal guardian. We do not intentionally collect data that specifically identifies a user as a minor.</p>
+
+<h2>7. Changes to This Privacy Policy</h2>
+<p>We may update this Privacy Policy when laws, regulations, or product features change. When we update this policy:</p>
+<ul>
+  <li>The effective date at the top of this page will be updated.</li>
+  <li>Material changes will be shown in the App and may require you to review the updated policy.</li>
+</ul>
+<p>If you do not agree to the updated policy, you may stop using the App and delete your account.</p>
+
+<h2>8. Contact Us</h2>
+<p>If you have questions, complaints, or requests regarding this Privacy Policy or your personal information rights, please contact us:</p>
+<ul>
+  <li>Email: <a href="mailto:yubiology@gmail.com">yubiology@gmail.com</a></li>
+  <li>Development team: Craft with love two-person team</li>
+</ul>
+<p>We will respond within <strong>15 business days</strong> after receiving your request.</p>
+
+<footer>
+  SLE Handbook App · Maintained by the Craft with love two-person team · Not a diagnostic tool and not a medical device<br>
+  This English page is provided for beta review and English-speaking readers.
+</footer>
+
+</div>
+</body>
+</html>
